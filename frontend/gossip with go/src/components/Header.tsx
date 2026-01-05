@@ -9,10 +9,10 @@ export function Header() {
       
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold">
-            r
+            g
           </div>
           <span className="font-bold text-xl text-slate-900 dark:text-slate-100">
-            reddit
+            gossip with go
           </span>
         </div>
 
@@ -20,7 +20,7 @@ export function Header() {
           <div className="relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-slate-400" />
             <Input
-              placeholder="Search Reddit"
+              placeholder="search gossip"
               className="pl-10 bg-slate-100 dark:bg-slate-800 border-0"
             />
           </div>
